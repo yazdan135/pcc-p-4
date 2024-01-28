@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/allproduct.css">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <!-- fontawesom -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>PRODUCT</title>
+  <style>
+    .dropdown:hover .dropdown-menu{
+  display: block;
+  }
+  .ft3{
+    color: white;
+    margin-left: 1px;
+    padding-bottom: 8px;
+  }
+  .icon1{
+    padding-left: 100px;
+  }
+    .highlight{
+         font-weight: 600;
+         border: 3px solid black;
+         background-color: orange;
+         font-size: 17px;
+    }
+    .sproduct{
+      color: white;
+    }
+
+    .small-img-group{
+            display: flex;
+            justify-content: space-between;
+        }
+        .small-img-col{
+            flex-basis: 24%;
+            cursor: pointer;
+        }
+        .sproduct select{
+              display: block;
+              padding: 5px 10px;
+        }
+        .sproduct input{
+            width: 50px;
+            height: 40px;
+            padding-left: 10px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .sproduct input:focus{
+            outline: none;
+        }
+        .buy-btn{
+            background-color: salmon;
+            opacity: 1;
+            transition: 0.3s all;
+        }
+  </style>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar- bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="" id="logo1"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  
+  
+  
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+            <button class="btn btn-outline-success" id="sbtn" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  <!-- Navbar End -->
+
+  <!-- Sub Navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="nav">
+      <div class="container-fluid">
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <section id="secid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+            
+  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  HARDWARE
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./case.html">CASE</a></li>
+                  <li><a class="dropdown-item" href="./keyboard.html">KEYBOARD</a></li>
+                  <li><a class="dropdown-item" href="./mouse.html">MOUSE</a></li>
+                  <li><a class="dropdown-item" href="monitors.html">MONITOR</a></li>
+                  <li><a class="dropdown-item" href="./printer.html">PRINTER</a></li>
+                  <li><a class="dropdown-item" href="./spekers.html">SPEKERS</a></li>
+                </ul>
+              </li>
+              
+              
+           
+              <li class="nav-item">
+                <a class="nav-link active" href="./laptop.html" id="libd">LAPTOPS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./gpu.html" id="libd">GPU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./VEDIO CARD.HTML" id="libd">VEDIO CARD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./psu.html" id="libd">PSU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./hdd.html" id="libd">HDD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./motherboard.html" id="libd">MOTHER BOARD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./ssd.html" id="libd">SSD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./ram.html" id="libd">RAM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./network.html" id="libd">NETWORK</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./about us.html" id="libd">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contact.html" id="libd">Contact us</a>
+              </li>
+  
+            </ul>
+          </section>
+  
+        </div>
+      </div>
+    </nav>
+  
+  <!-- Sub Navbar End   -->
+
+
+  <div class="container sproduct my-5 pt-5">
+    <div class="row mt-5">
+
+<div class="col-lg-6">
+
+ <img class="img-fluid w-100 pb-1 mb-5" src="./img/montors/5.png" id="MainImg" alt="">
+ 
+
+ <div class="small-img-group">
+     <div class="small-img-col">
+         <img class="small-img img-fluid" width="100%" src="./img/montors/5.png" alt="">
+     </div>
+     <div class="small-img-col">
+         <img class="small-img img-fluid" width="100%" src="./img/montors/1.png" alt="">
+     </div>
+     <div class="small-img-col">
+         <img class="small-img img-fluid" width="100%" src="./img/montors/2.png" alt="">
+     </div>
+     <div class="small-img-col">
+         <img class="small-img img-fluid" width="100%" src="./img/montors/3.png" alt="">
+     </div>
+ </div>
+</div>
+
+<div class="col-lg-6">
+ <h6 class="mt-5">Home/gaming pc case/</h6>
+ <h3 class="py-4">MSI Pro MP241X 24” Monitor, FHD Display
+</h3>
+ <h2>RS=300000</h2>
+ <select class="my-3">
+  <option>Western Digital 1Tb Hard Disk Drive</option>
+  <option>Seagate BarraCuda 1TB Hard Drive</option>
+  <option>Seagate 1TB Hard Drive USB 3.0</option>
+  <option>WD My Passport 1TB Hard Drive</option>
+  <option>ADATA 1TB USB 3.2  Hard Drive</option>
+  <option>LaCie Porsche 1TB Hard Drive</option>
+  <option>Transcend 1TB Ruggedized Hard Drive</option>
+  <option>Seagate Skyhawk 2TB SATA Hard Drive</option>
+  <option>Seagate Skyhawk 2TB SATA Hard Drive</option>
+  <option>Seagate Skyhawk 2TB SATA Hard Drive</option>
+  <option>Seagate Skyhawk 2TB SATA Hard Drive</option>
+  <option>Seagate Skyhawk 2TB SATA Hard Drive</option>
+
+ </select>
+ <input type="number" value="1">
+ <a href="rigex.htm"><button class="buy-btn" style="padding: 7px;" >Buy now</button></a>
+ <h4 class="mt-5">Product detail</h4>
+ <span>
+  MSI Pro MP241X 24” Monitor, FHD Display
+ (14 Cores - 20 Threads, 24 MB Intel® Smart Cache) The Rainbow R3 is a stunning Mid Tower Gaming case with an elegant backslash LED across the front panel with 19 lighting modes. Comes with a tempered glass side panel to showcase your system.
+ </span>
+</div>
+
+
+
+</div>
+</div>
+
+
+<script>
+var MainImg = document.getElementById('MainImg');
+var smallimg = document.getElementsByClassName('small-img');
+
+
+smallimg[0].onclick = function(){
+MainImg.src = smallimg[0].src;
+}
+
+smallimg[1].onclick = function(){
+MainImg.src = smallimg[1].src;
+}
+
+smallimg[2].onclick = function(){
+MainImg.src = smallimg[2].src;
+}
+
+smallimg[3].onclick = function(){
+MainImg.src = smallimg[3].src;
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer start -->
+  <footer class="bd-footer py-5 mt-5 " id="footer">
+    <div class="container-fluid py-5" id="footer">
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+          <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/"
+            aria-label="Bootstrap">
+
+            <div>
+              <img src="./img/logo.png" alt="">
+            </div>
+            <span class="fs-5"></span>
+          </a>
+          <ul class="list-unstyled small text-light">
+         <p class="fw-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam impedit nihil ipsam? Voluptatum eligendi ipsam fugiat quis, harum sequi excepturi odio dolorum, eius explicabo rerum deleniti odit iure? Quas labore quibusdam iste atque itaque? Laborum eos ipsam facere iure velit quam totam dicta dolores tempora. Veritatis maxime cumque voluptatum rerum.</p>
+          </ul>
+        </div>
+       
+        <div class="col-6 col-lg-2 mb-3 icon1">
+          <h5 class="ft3">Guides :-</h5>
+          <ul class="list-unstyled">
+       
+            <li><a href="https://www.instagram.com/"  target="_blank"><i class="fa-brands fa-linkedin fa-2xl text-white"></i></a></li>
+            <br>
+            <li><a href="https://www.instagram.com/"  target="_blank"><i class="fa-brands fa-facebook fa-2xl text-white"></i></a></li>
+            <br>
+            <li><a href="https://www.instagram.com/"  target="_blank"><i class="fa-brands fa-twitter fa-2xl text-white"></i></a></li>
+            <br>
+            <li><a href="https://www.instagram.com/"  target="_blank"><i class="fa-brands fa-instagram fa-2xl text-white"></i></a></li>
+            <br>
+            <li><a href="https://www.instagram.com/"  target="_blank"><i class="fa-brands fa-youtube fa-2xl text-white"></i></a></li>
+            <br>
+            <li><a href="https://www.instagram.com/"  target="_blank"><i class="fa-brands fa-whatsapp fa-2xl text-white"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+          <h5 class="text-white ">Products :-</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a class="text-white fw-bold" style="font-size: larger;" href="./laptop.html">Laptops</a></li>
+            <li class="mb-2"><a class="text-white fw-bold" style="font-size: larger;" href="./gpu.html">GPU</a></li>
+            <li class="mb-2"><a class="text-white fw-bold" style="font-size: larger;" href="./VEDIO CARD.HTML">Vedio card</a></li>
+            <li class="mb-2"><a class="text-white fw-bold" style="font-size: larger;" href="./psu.html">PSUs</a></li>
+            <li class="mb-2"><a class="text-white fw-bold" style="font-size: larger;" href="./hdd.html">HDD</a></li>
+            <li class="mb-2"><a class="text-white fw-bold" style="font-size: larger;" href="./motherboard.html">Motherboard</a></li>
+            <li class="mb-2"><a class="text-white fw-bold" style="font-size: larger;" href="./ssd.html">SSDs</a></li>
+            <li class="mb-2"><a class="text-white fw-bold" style="font-size: larger;" href="./ram.html">RAM</a></li>
+            <li class="mb-2"><a class="text-white fw-bold" style="font-size: larger;" href="./network.html">Network</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+        
+          <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14478.008273217849!2d67.05999406767576!3d24.88085049350701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spc%20center!5e0!3m2!1sen!2s!4v1699781979648!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+
+      </div>
+    </div>
+  </footer>
+  <div class="footer-bottom" id="ft2">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="pull-left">
+            <p>Copyright © Pc-Center 2023. All rights reserved.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="text-center">
+            <div class="paymentMethodImg">
+              <img height="30" class="pull-right" src="./img/master_card.jpeg" alt="img">
+              <img height="30" class="pull-right" src="./img/american_express_card.jpeg" alt="img">
+              <img height="30" class="pull-right" src="./img/paypal.jpeg" alt="img">
+              <img height="30" class="pull-right" src="./img/visa_card.jpeg" alt="img">
+              <img height="30" class="pull-right" src="./img/discover_network_card.jpeg" alt="img">
+              <img height="30" class="pull-right" src="./img/google_wallet.jpeg" alt="img">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div class="pull-right">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+  <!-- Footer End -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
+<script src="./js/jquery-3.7.1.min.js"></script>
+<script src="./js/app.js"></script>
+</body>
+
+</html>

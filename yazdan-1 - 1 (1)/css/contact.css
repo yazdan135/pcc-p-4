@@ -1,0 +1,146 @@
+
+  .container {
+    border-radius: 5px;
+    background-color: #c4b2b2;
+    padding: 20px;
+  }
+
+
+ 
+ #logo1{
+    margin-left: 50px;
+}
+
+
+#nav{
+    background-color: rgb(182, 178, 178);
+}
+
+#libd{
+    border-right: 1px solid rgb(23, 82, 170);
+    
+}
+
+#libd:hover{
+    color: orange;
+    background-color: black;
+    border-right: 2px solid orange;
+    border-left: 2px solid orange;
+
+}
+
+ul li.active{
+    background-color:orange;
+    
+    font-weight: bold;
+    
+}
+
+#cards{
+    background-color: black;
+    color: black;
+}
+#h1{
+    color: aliceblue;
+}
+#hr1{
+    color: aliceblue;
+}
+#card {
+    
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    
+ }
+ #sbtn{
+    color: orange;
+    border-color: orange;
+}
+.DAB{
+    transition: all 0.5s 0.5s ease-in-out;
+    cursor: pointer;
+}
+.DAB:hover{
+transform: scale(1.1);
+}
+#ft{
+    background-color:gray;
+    
+    
+}
+#ft2{
+    color: rgb(0, 0, 0);
+    background-color:black;
+    padding-top: 10px;
+}
+#footer{
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.rrf{
+    border: 3px solid black;
+}
+
+#maps{
+    height: 350px;
+    width: 400px;
+    padding-top: 25px;
+}
+
+
+/* age ke id */
+
+.gtr{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    padding: 30px;
+}
+
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  #map{
+    height: 350px;
+    width: 400px;
+    padding-top: 25px;
+    padding-left: 25px;
+}

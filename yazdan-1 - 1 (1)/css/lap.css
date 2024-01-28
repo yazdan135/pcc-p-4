@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+#libd {
+    border-right: 1px solid rgb(23, 82, 170);
+
+}
+
+#libd:hover {
+    color: orange;
+    background-color: black;
+    border-right: 2px solid orange;
+    border-left: 2px solid orange;
+
+}
+
+.heading2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.heading1 {
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.yazdan{
+    margin-left: 70px;
+}
+.img1 {
+    height: 250px;
+    width: 300px;
+    transition: all 0.5s 0.5s ease-in-out;
+}
+
+.img1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#tranding1 {
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+#tranding2 {
+    text-align: center;
+    margin-top: -15px;
+    font-weight: 400;
+    color: white;
+    border: 1px gray solid;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#tranding3 {
+    margin-left: 80px;
+    background-color: yellow;
+}
+
+#tranding3:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#nav {
+    background-color: rgb(182, 178, 178);
+}
+
+#libd:hover {
+    color: orange;
+    background-color: black;
+    border-right: 2px solid orange;
+    border-left: 2px solid orange;
+
+}
+
+#ft {
+    background-color: grey;
+
+
+}
+
+#ft2 {
+    color: grey;
+    background-color: black;
+    padding-top: 10px;
+}
+
+#footer {
+    background-color: grey;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+
+}
+#maps{
+    height: 350px;
+    width: 400px;
+    padding-top: 25px;
+}

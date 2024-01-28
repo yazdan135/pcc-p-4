@@ -1,0 +1,89 @@
+#logo1 {
+    margin-left: 50px;
+}
+
+
+#nav {
+    background-color: rgb(182, 178, 178);
+}
+
+#libd {
+    border-right: 1px solid rgb(23, 82, 170);
+
+}
+
+#libd:hover {
+    color: orange;
+    background-color: black;
+    border-right: 2px solid orange;
+    border-left: 2px solid orange;
+
+}
+
+ul li.active {
+    background-color: orange;
+    font-weight: bold;
+
+}
+
+body {
+    background-color: black;
+}
+
+#cards {
+    background-color: black;
+    color: black;
+}
+
+#h1 {
+    color: aliceblue;
+}
+
+#hr1 {
+    color: aliceblue;
+}
+
+#card {
+
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sbtn {
+    color: orange;
+    border-color: orange;
+}
+.DAB{
+    transition: all 0.5s 0.5s ease-in-out;
+    cursor: pointer;
+}
+.DAB:hover{
+transform: scale(1.1);
+}
+#ft {
+    background-color: grey;
+
+
+}
+
+#ft2 {
+    color: grey;
+    background-color: black;
+    padding-top: 10px;
+}
+
+#footer {
+    background-color: grey;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+
+}
+#maps{
+    height: 350px;
+    width: 400px;
+    padding-top: 25px;
+}
